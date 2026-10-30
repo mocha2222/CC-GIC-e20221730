@@ -11,45 +11,45 @@ Copy this template to `cc-lab-YOUR_ID/lab2/README.md` in your own repository. Fo
 
 ## Security groups
 
-![LoadBalancerSecurityGroup](images/01-sg-load-balancer.png)
+![LoadBalancerSecurityGroup](images/01-sg-load-balancer.jpg)
 
-![LaunchTemplateSecurityGroup](images/02-sg-launch-template.png)
+![LaunchTemplateSecurityGroup](images/02-sg-launch-template.jpg)
 
 ## Target group
 
-![LoadBalancerTargetGroup](images/03-target-group.png)
+![LoadBalancerTargetGroup](images/03-target-group.jpg)
 
-![Health checks](images/04-health-checks.png)
+![Health checks](images/04-health-checks.jpg)
 
 ## Application Load Balancer
 
-![Load balancer list](images/05-load-balancer-list.png)
+![Load balancer list](images/05-load-balancer-list.jpg)
 
-![Load balancer details](images/06-load-balancer-details.png)
+![Load balancer details](images/06-load-balancer-details.jpg)
 
 ## Launch template
 
-![AutoScalingLaunchTemplate](images/07-launch-template.png)
+![AutoScalingLaunchTemplate](images/07-launch-template.jpg)
 
 ## Auto Scaling group
 
-![Auto Scaling groups](images/08-asg-list.png)
+![Auto Scaling groups](images/08-asg-list.jpg)
 
-![Auto Scaling group details](images/09-asg-details.png)
+![Auto Scaling group details](images/09-asg-details.jpg)
 
 ## Load balancing test
 
-![First request](images/10-browser-1.png)
+![First request](images/10-browser-1.jpg)
 
-![Second request, different host](images/11-browser-2.png)
+![Second request, different host](images/11-browser-2.jpg)
 
 ## Simulated application failure
 
-![Stopping httpd](images/12-stop-httpd.png)
+![Stopping httpd](images/12-stop-httpd.jpg)
 
-![Target unhealthy or draining](images/13-target-unhealthy.png)
+![Target unhealthy or draining](images/13-target-unhealthy.jpg)
 
-![New target healthy](images/14-target-replaced.png)
+![New target healthy](images/14-target-replaced.jpg)
 
 About how many minutes passed between stopping `httpd` and the new instance becoming healthy?
 
