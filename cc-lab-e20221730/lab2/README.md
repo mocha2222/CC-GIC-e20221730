@@ -69,8 +69,9 @@ About how many minutes passed between stopping `httpd` and the new instance beco
 4. **With desired 2, minimum 2 and maximum 3, how many instances run normally? In what situation could there be 3?**
    Normally, two instances run because the desired capacity is 2. There can be three instances when traffic or demand increases and an Auto Scaling policy adds one more instance. The maximum capacity is 3, so Auto Scaling cannot normally increase the group beyond three instances.
 
-5. **The instances' security group allows HTTP from anywhere. How could you change it so that the instances accept HTTP **only** from the load balancer? answer this question in simple word**
-   Create or use a security group for the load balancer. In the instances' security group, remove the HTTP rule that allows traffic from `0.0.0.0/0` (anywhere). Add an inbound rule for HTTP on port 80 with the load balancer's security group as the source. Then users can access the instances through the load balancer, but direct HTTP access from the internet is blocked.
+5. **The instances' security group allows HTTP from anywhere. How could you change it so that the instances accept HTTP **only** from the load balancer?**
+    Create or use a security group for the load balancer. In the instances' security group, remove the HTTP rule that allows traffic from `0.0.0.0/0` (anywhere). Add an inbound rule for HTTP on port 80 with the load balancer's security group as the source. Then users can access the instances through the load balancer, but direct HTTP access from the internet is blocked.
+
 
 ## Problems and how I solved them (optional)
 
