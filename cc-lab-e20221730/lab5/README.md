@@ -15,37 +15,37 @@ Make sure resource names, statuses and endpoints are readable in every screensho
 
 `aws-database-options-security-group` with its inbound rules (SSH port 22, Custom TCP ports 8000 and 5173) and its outbound rule.
 
-![Security group rules](images/01_Security_Group.png)
+![Security group rules](images/01-security-group.png)
 
 ## 2. EC2 Instance Running
 
 `aws-database-options-lab-instance` in the **Running** state with `aws-database-options-security-group` attached.
 
-![EC2 instance running](images/02_EC2_Instance.png)
+![EC2 instance running](images/02-ec2-running.png)
 
 ## 3. S3 Bucket
 
 Your `clab-imagestore-…` bucket with its public access settings and bucket policy visible.
 
-![S3 bucket permissions](images/03_S3_Bucket.png)
+![S3 bucket permissions](images/03-s3-bucket.png)
 
 ## 4. RDS DB Instance
 
 `aws-dbo-sql` with the status **Available** and its endpoint visible.
 
-![RDS DB instance](images/04_RDS_Database.png)
+![RDS DB instance](images/04-rds-sql.png)
 
 ## 5. Aurora DB Status
 
 The `aws-dbo-aurora` cluster with the status **Available** and its writer and reader endpoints visible.
 
-![Aurora DB status](images/05B_Aurora_Table_Creation.png)
+![Aurora DB status](images/05-aurora-cluster.png)
 
 ## 6. DynamoDB Table
 
 The `posts` table with the status **Active** and its partition key `post_id` visible.
 
-![DynamoDB table](images/06_DynamoDB_Table.png)
+![DynamoDB table](images/06-dynamodb-table.png)
 
 ## 7. Application Configuration and Testing
 
@@ -59,13 +59,13 @@ The application running in your browser at `http://<Public_IP_of_EC2>:5173`, wit
 
 Optional: the signup or login page and a sample post. Delete the image line below if you did not take this screenshot.
 
-![Signup and sample post](images/09-signup-post.png)
+![Signup and sample post](images/10-signup-post.png)
 
 ## 8. Final Infrastructure
 
 One collage of the resources you created: EC2 instance, security group, RDS and Aurora databases, DynamoDB table and S3 bucket.
 
-![Final infrastructure](images/10-final-infrastructure.png)
+![Final infrastructure](images/09-final-infrastructure.png)
 
 ## Errors and troubleshooting (optional)
 
